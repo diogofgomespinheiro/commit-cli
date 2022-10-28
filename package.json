@@ -2,9 +2,13 @@
   "name": "@diogop_96/commit-cli",
   "version": "1.0.0",
   "description": "Personal commit cli",
-  "main": "index.js",
+  "bin": "./src/cli.js",
   "repository": "https://github.com/diogofgomespinheiro/commit-cli",
   "author": "Diogo Pinheiro <diogo.fgomes.pinheiro@gmail.com>",
   "license": "MIT",
-  "private": false
+  "private": false,
+  "dependencies": {
+    "commitizen": "^4.2.5",
+    "cz-conventional-changelog": "^3.3.0"
+  }
 }
