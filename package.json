@@ -1,6 +1,6 @@
 {
   "name": "@diogop_96/commit-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Personal commit cli",
   "bin": "./src/cli.js",
   "repository": "https://github.com/diogofgomespinheiro/commit-cli",
